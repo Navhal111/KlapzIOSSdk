@@ -12,16 +12,11 @@
 		0F32E89B2701A6A200F8BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8702701A6A200F8BBC1 /* Assets.xcassets */; };
 		0F32E89C2701A6A200F8BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8702701A6A200F8BBC1 /* Assets.xcassets */; };
 		0F32E8CB2701A7FE00F8BBC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */; };
-		0F32E8CC2701A7FE00F8BBC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */; };
 		0F32E8CD2701A7FE00F8BBC1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C72701A7FE00F8BBC1 /* View.swift */; };
-		0F32E8CE2701A7FE00F8BBC1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C72701A7FE00F8BBC1 /* View.swift */; };
 		0F32E8CF2701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */; };
-		0F32E8D02701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */; };
 		0F32E8D12701A7FE00F8BBC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */; };
-		0F32E8D22701A7FE00F8BBC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */; };
 		0F32E8DA2701AB2200F8BBC1 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0F32E8D92701AB2200F8BBC1 /* BottomSheet */; };
 		0F32E8EC2701B2B900F8BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */; };
-		0F32E8ED2701B2B900F8BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */; };
 		0F32E8F92701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */; };
 		0F32E8FA2701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -370,11 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F32E8ED2701B2B900F8BBC1 /* AppDelegate.swift in Sources */,
-				0F32E8CE2701A7FE00F8BBC1 /* View.swift in Sources */,
-				0F32E8D02701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */,
-				0F32E8CC2701A7FE00F8BBC1 /* ViewController.swift in Sources */,
-				0F32E8D22701A7FE00F8BBC1 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +663,6 @@
 		0F32E8A92701A6A200F8BBC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FN97Q79A7H;
@@ -695,7 +684,6 @@
 		0F32E8AA2701A6A200F8BBC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FN97Q79A7H;
