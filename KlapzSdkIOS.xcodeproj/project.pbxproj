@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0F32E88A2701A6A200F8BBC1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8892701A6A200F8BBC1 /* Tests_iOS.swift */; };
 		0F32E8952701A6A200F8BBC1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8942701A6A200F8BBC1 /* Tests_macOS.swift */; };
-		0F32E8972701A6A200F8BBC1 /* KlapzSdkIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E86E2701A6A000F8BBC1 /* KlapzSdkIOSApp.swift */; };
-		0F32E8982701A6A200F8BBC1 /* KlapzSdkIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E86E2701A6A000F8BBC1 /* KlapzSdkIOSApp.swift */; };
-		0F32E8992701A6A200F8BBC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E86F2701A6A000F8BBC1 /* ContentView.swift */; };
-		0F32E89A2701A6A200F8BBC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E86F2701A6A000F8BBC1 /* ContentView.swift */; };
 		0F32E89B2701A6A200F8BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8702701A6A200F8BBC1 /* Assets.xcassets */; };
 		0F32E89C2701A6A200F8BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8702701A6A200F8BBC1 /* Assets.xcassets */; };
+		0F32E8CB2701A7FE00F8BBC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */; };
+		0F32E8CC2701A7FE00F8BBC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */; };
+		0F32E8CD2701A7FE00F8BBC1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C72701A7FE00F8BBC1 /* View.swift */; };
+		0F32E8CE2701A7FE00F8BBC1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C72701A7FE00F8BBC1 /* View.swift */; };
+		0F32E8CF2701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */; };
+		0F32E8D02701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */; };
+		0F32E8D12701A7FE00F8BBC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */; };
+		0F32E8D22701A7FE00F8BBC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */; };
+		0F32E8DA2701AB2200F8BBC1 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0F32E8D92701AB2200F8BBC1 /* BottomSheet */; };
+		0F32E8EC2701B2B900F8BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */; };
+		0F32E8ED2701B2B900F8BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */; };
+		0F32E8F92701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */; };
+		0F32E8FA2701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F32E86E2701A6A000F8BBC1 /* KlapzSdkIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlapzSdkIOSApp.swift; sourceTree = "<group>"; };
-		0F32E86F2701A6A000F8BBC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F32E8702701A6A200F8BBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F32E8752701A6A200F8BBC1 /* KlapzSdkIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlapzSdkIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F32E8782701A6A200F8BBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		0F32E8902701A6A200F8BBC1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F32E8942701A6A200F8BBC1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0F32E8962701A6A200F8BBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F32E8C72701A7FE00F8BBC1 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBottomSheetView.swift; sourceTree = "<group>"; };
+		0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F32E8F82701B31C00F8BBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F32E8DA2701AB2200F8BBC1 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +112,9 @@
 		0F32E86D2701A6A000F8BBC1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0F32E86E2701A6A000F8BBC1 /* KlapzSdkIOSApp.swift */,
-				0F32E86F2701A6A000F8BBC1 /* ContentView.swift */,
+				0F32E8F62701B31C00F8BBC1 /* Storyboards */,
+				0F32E8EB2701B2B900F8BBC1 /* AppDelegate.swift */,
+				0F32E8C52701A7FE00F8BBC1 /* Main */,
 				0F32E8702701A6A200F8BBC1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +166,33 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		0F32E8C52701A7FE00F8BBC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F32E8C62701A7FE00F8BBC1 /* ViewController.swift */,
+				0F32E8C72701A7FE00F8BBC1 /* View.swift */,
+				0F32E8C82701A7FE00F8BBC1 /* ExampleBottomSheet */,
+				0F32E8CA2701A7FE00F8BBC1 /* ViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F32E8C82701A7FE00F8BBC1 /* ExampleBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				0F32E8C92701A7FE00F8BBC1 /* ExampleBottomSheetView.swift */,
+			);
+			path = ExampleBottomSheet;
+			sourceTree = "<group>";
+		};
+		0F32E8F62701B31C00F8BBC1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +209,9 @@
 			dependencies = (
 			);
 			name = "KlapzSdkIOS (iOS)";
+			packageProductDependencies = (
+				0F32E8D92701AB2200F8BBC1 /* BottomSheet */,
+			);
 			productName = "KlapzSdkIOS (iOS)";
 			productReference = 0F32E8752701A6A200F8BBC1 /* KlapzSdkIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 0F32E8682701A6A000F8BBC1;
+			packageReferences = (
+				0F32E8D82701AB2200F8BBC1 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 0F32E8762701A6A200F8BBC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F32E89B2701A6A200F8BBC1 /* Assets.xcassets in Resources */,
+				0F32E8F92701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F32E89C2701A6A200F8BBC1 /* Assets.xcassets in Resources */,
+				0F32E8FA2701B31C00F8BBC1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F32E8992701A6A200F8BBC1 /* ContentView.swift in Sources */,
-				0F32E8972701A6A200F8BBC1 /* KlapzSdkIOSApp.swift in Sources */,
+				0F32E8EC2701B2B900F8BBC1 /* AppDelegate.swift in Sources */,
+				0F32E8CD2701A7FE00F8BBC1 /* View.swift in Sources */,
+				0F32E8CF2701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */,
+				0F32E8CB2701A7FE00F8BBC1 /* ViewController.swift in Sources */,
+				0F32E8D12701A7FE00F8BBC1 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F32E89A2701A6A200F8BBC1 /* ContentView.swift in Sources */,
-				0F32E8982701A6A200F8BBC1 /* KlapzSdkIOSApp.swift in Sources */,
+				0F32E8ED2701B2B900F8BBC1 /* AppDelegate.swift in Sources */,
+				0F32E8CE2701A7FE00F8BBC1 /* View.swift in Sources */,
+				0F32E8D02701A7FE00F8BBC1 /* ExampleBottomSheetView.swift in Sources */,
+				0F32E8CC2701A7FE00F8BBC1 /* ViewController.swift in Sources */,
+				0F32E8D22701A7FE00F8BBC1 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +408,17 @@
 			targetProxy = 0F32E8912701A6A200F8BBC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F32E8F72701B31C00F8BBC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F32E8F82701B31C00F8BBC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0F32E89D2701A6A200F8BBC1 /* Debug */ = {
@@ -483,7 +550,7 @@
 				PRODUCT_NAME = KlapzSdkIOS;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -505,7 +572,7 @@
 				PRODUCT_NAME = KlapzSdkIOS;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -696,6 +763,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F32E8D82701AB2200F8BBC1 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gaetanomatonti/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F32E8D92701AB2200F8BBC1 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F32E8D82701AB2200F8BBC1 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F32E8692701A6A000F8BBC1 /* Project object */;
 }

@@ -1,27 +1,15 @@
 //
-//  KlapzSdkIOSApp.swift
-//  Shared
+//  AppDelegate.swift
+//  BottomSheetExample
 //
-//  Created by Kakashi on 27/09/21.
+//  Created by Gaetano Matonti on 22/11/20.
 //
-
-import SwiftUI
-
-//@main
-//struct KlapzSdkIOSApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
-
 
 import UIKit
 import BottomSheet
 
 @UIApplicationMain
-class KlapzSdkIOSApp: UIResponder, UIApplicationDelegate, BottomSheetPresenter {
+class AppDelegate: UIResponder, UIApplicationDelegate, BottomSheetPresenter {
   var window: UIWindow?
   
 let jsonObject: [String: Any] = [
